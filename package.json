@@ -1,5 +1,5 @@
 {
-    "name": "react-native-google-safetynet",
+    "name": "cozy-react-native-google-safetynet",
     "version": "1.0.0",
     "description": "React Native implementation for Google's SafetyNet API",
     "author": "Rajiv Shah <rajivshah1@icloud.com>",
