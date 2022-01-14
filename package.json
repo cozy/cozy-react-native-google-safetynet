@@ -1,0 +1,54 @@
+{
+    "name": "react-native-google-safetynet",
+    "version": "1.0.0",
+    "description": "React Native implementation for Google's SafetyNet API",
+    "author": "Rajiv Shah <rajivshah1@icloud.com>",
+    "license": "MIT",
+    "homepage": "https://github.com/rajivshah3/react-native-google-safetynet",
+    "bugs": "https://github.com/rajivshah3/react-native-google-safetynet/issues",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "docs": "./node_modules/.bin/documentation build -f html -o docs src/index.js",
+        "format": "prettier --write \"**/*.{js,json}\"",
+        "lint": "./node_modules/.bin/eslint .",
+        "precommit": "lint-staged",
+        "version": "./node_modules/.bin/auto-changelog -p"
+    },
+    "lint-staged": {
+        "*.{js,json}": [
+            "prettier --write",
+            "git add"
+        ]
+    },
+    "keywords": [
+        "react-native",
+        "safetynet"
+    ],
+    "peerDependencies": {
+        "react-native": "^0.48.0"
+    },
+    "dependencies": {
+        "base64-js": "^1.3.0",
+        "jwt-decode": "^2.2.0",
+        "react-native-securerandom": "^0.1.1"
+    },
+    "devDependencies": {
+        "auto-changelog": "^2.0.0",
+        "babel-eslint": "10.1.0",
+        "documentation": "^12.0.0",
+        "eslint": "5.16.0",
+        "eslint-config-airbnb": "^17.1.0",
+        "eslint-config-prettier": "6.11.0",
+        "eslint-plugin-babel": "5.3.0",
+        "eslint-plugin-import": "2.20.2",
+        "eslint-plugin-jsx-a11y": "^6.2.1",
+        "eslint-plugin-prettier": "3.1.3",
+        "eslint-plugin-react": "^7.12.4",
+        "eslint-plugin-react-native": "3.8.1",
+        "husky": "4.2.5",
+        "lint-staged": "10.2.8",
+        "prettier": "2.0.5",
+        "react-native": "0.57.8"
+    }
+}
