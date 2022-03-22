@@ -1,6 +1,6 @@
 {
     "name": "cozy-react-native-google-safetynet",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "React Native implementation for Google's SafetyNet API",
     "author": "Rajiv Shah <rajivshah1@icloud.com>",
     "license": "MIT",
